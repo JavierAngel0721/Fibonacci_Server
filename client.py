@@ -2,7 +2,6 @@ import socket
 import argparse
 import sys
 
-# Files for logging client interaction
 OK_LOG_FILE = "client-ok.out"
 ERROR_LOG_FILE = "client-error.out"
 BUFFER_SIZE = 1024
@@ -30,7 +29,6 @@ def send_request(server_ip, server_port, n):
         sys.exit(1)
 
 def parse_args():
-    """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Fibonacci Client")
     parser.add_argument("server_ip", help="IP address of the server")
     parser.add_argument("number", help="The number to send to the server")
@@ -46,16 +44,11 @@ if __name__ == "__main__":
     # Send request and receive response from server
     response = send_request(server_ip, server_port, n)
 
-    # Log response to appropriate file
     if response.startswith("OK"):
-        # Log the full response (e.g., "OK 3")
         with open(OK_LOG_FILE, 'a') as ok_file:
             ok_file.write(f"{response}\n")
-        # Print the full response (e.g., "OK 3")
         print(response)
     else:
-        # Log the error message (e.g., "ERROR a non-negative integer input is required")
         with open(ERROR_LOG_FILE, 'a') as error_file:
             error_file.write(f"{response}\n")
-        # Print the full error message (e.g., "ERROR a non-negative integer input is required")
         print(response)
