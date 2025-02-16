@@ -1,0 +1,41 @@
+2025-02-16 01:21:00,099 - Server started, listening on port 10000...
+2025-02-16 01:21:08,772 - Accepted connection from ('127.0.0.1', 64090)
+2025-02-16 01:21:08,772 - Received data: abc
+2025-02-16 01:21:08,772 - Sending response: ERROR a non-negative integer input is required
+2025-02-16 01:21:08,772 - Disconnected from ('127.0.0.1', 64090)
+2025-02-16 01:21:15,172 - Accepted connection from ('127.0.0.1', 64093)
+2025-02-16 01:21:15,173 - Received data: -10
+2025-02-16 01:21:15,173 - Sending response: ERROR a non-negative integer input is required
+2025-02-16 01:21:15,173 - Disconnected from ('127.0.0.1', 64093)
+2025-02-16 01:21:56,683 - Accepted connection from ('127.0.0.1', 64121)
+2025-02-16 01:21:56,684 - Received data: 0
+2025-02-16 01:21:56,684 - Sending response: OK 0
+2025-02-16 01:21:56,684 - Disconnected from ('127.0.0.1', 64121)
+2025-02-16 01:22:00,867 - Accepted connection from ('127.0.0.1', 64123)
+2025-02-16 01:22:00,867 - Received data: 1
+2025-02-16 01:22:00,867 - Sending response: OK 1
+2025-02-16 01:22:00,867 - Disconnected from ('127.0.0.1', 64123)
+2025-02-16 01:22:03,896 - Accepted connection from ('127.0.0.1', 64125)
+2025-02-16 01:22:03,896 - Received data: 2
+2025-02-16 01:22:03,896 - Sending response: OK 1
+2025-02-16 01:22:03,897 - Disconnected from ('127.0.0.1', 64125)
+2025-02-16 01:22:06,259 - Accepted connection from ('127.0.0.1', 64127)
+2025-02-16 01:22:06,260 - Received data: 3
+2025-02-16 01:22:06,260 - Sending response: OK 2
+2025-02-16 01:22:06,260 - Disconnected from ('127.0.0.1', 64127)
+2025-02-16 01:22:08,569 - Accepted connection from ('127.0.0.1', 64129)
+2025-02-16 01:22:08,570 - Received data: 4
+2025-02-16 01:22:08,570 - Sending response: OK 3
+2025-02-16 01:22:08,570 - Disconnected from ('127.0.0.1', 64129)
+2025-02-16 01:22:10,728 - Accepted connection from ('127.0.0.1', 64130)
+2025-02-16 01:22:10,728 - Received data: 5
+2025-02-16 01:22:10,728 - Sending response: OK 5
+2025-02-16 01:22:10,729 - Disconnected from ('127.0.0.1', 64130)
+2025-02-16 01:22:12,791 - Accepted connection from ('127.0.0.1', 64132)
+2025-02-16 01:22:12,792 - Received data: 6
+2025-02-16 01:22:12,792 - Sending response: OK 8
+2025-02-16 01:22:12,792 - Disconnected from ('127.0.0.1', 64132)
+2025-02-16 01:22:15,982 - Accepted connection from ('127.0.0.1', 64136)
+2025-02-16 01:22:15,982 - Received data: 7
+2025-02-16 01:22:15,982 - Sending response: OK 13
+2025-02-16 01:22:15,982 - Disconnected from ('127.0.0.1', 64136)
